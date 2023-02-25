@@ -21,7 +21,7 @@ squares.forEach((square) => {
   square.addEventListener("mousedown", () => {
     if (square.id == hitPosition) {
       result++;
-      score.textContent == result;
+      score.textContent = result;
       hitPosition = null;
     }
   });
